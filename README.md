@@ -65,7 +65,7 @@ Train Data 12457개, Valid Data 499개, Test Data 499개로 이루어져 있으�
 
 ### EDA
 #### 샘플데이터
-<img src="https://github.com/UpstageAILab/upstage-nlp-summarization-nlp-5/assets/42354230/c6d69ed8-0845-4d06-9678-6e1add5f3768" width="768">
+<img src="https://github.com/UpstageAILab/upstage-nlp-summarization-nlp-5/assets/42354230/c6d69ed8-0845-4d06-9678-6e1add5f3768" width="512">
 
 #### Train, Valid, Test 대화문 및 요약문 길이 비교
 <img src="https://github.com/UpstageAILab/upstage-nlp-summarization-nlp-5/assets/42354230/f933c578-eb74-437d-b6cd-acf720f1dc4b" width="330">
@@ -77,14 +77,22 @@ Train Data 12457개, Valid Data 499개, Test Data 499개로 이루어져 있으�
 
 
 ### Data Processing
+<img src="https://github.com/UpstageAILab/upstage-nlp-summarization-nlp-5/assets/42354230/6f521f47-8e7c-4f80-8c63-acc5345f79df" width="1024">  
+GPT3.5 Api를 사용하여 데이터를 합성했습니다. 위 그림과 같이 GPT에게 Instruction을 주고 학습데이터에서 샘플링한 5개의 대화문-요약문 쌍데이터를 예시로 보여준 뒤 질문으로 1개의 대화문을 입력해 요약문을 생성했습니다.  
 
-- _Describe data processing process (e.g. Data Labeling, Data Cleaning..)_
+#### SAMSUM 데이터셋 활용
+![image](https://github.com/UpstageAILab/upstage-nlp-summarization-nlp-5/assets/42354230/514435f1-c572-4db3-af00-364e1a2013cd)
+![image](https://github.com/UpstageAILab/upstage-nlp-summarization-nlp-5/assets/42354230/15420921-d363-417e-97a3-2fa294559dbe)
+대회 데이터셋이 번역 데이터라는 점을 활용하여 다른 영어 대화문 데이터셋을 한글로 번역하여 학습 데이터셋으로 활용하였습니다. 해당 데이터셋이 Upstage에서 추최하는 대회이기에 Solar Api를 활용하여 번역을 진행하면 좋을 것이라고 판단해서 Solar Api를 활용해 번역을 진행하였습니다.
 
 ## 4. Modeling
 
 ### Model descrition
+[digit82/kobart-summarization](https://huggingface.co/digit82/kobart-summarization)
+- 기본적으로 좋은 성능을 보여줌
 
-- _Write model information and why your select this model_
+[eenzeenee/t5-base-korean-summarization](https://huggingface.co/eenzeenee/t5-base-korean-summarization)
+- 해당 대회에서 수행하고자하는 Task인 요약에 대해서 많은 자료들로 사전에 Finetuning 돼 있었고 실제로 다른 T5 모델보다 좋은 성능을 보여주었습니다.
 
 ### Modeling Process
 
