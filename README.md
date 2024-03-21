@@ -101,20 +101,19 @@ GPT3.5 Api를 사용하여 데이터를 합성했습니다. 위 그림과 같이
 ## 5. Result
 
 ### Leader Board
-
-- _Insert Leader Board Capture_
-- _Write rank and score_
+![07](https://github.com/UpstageAILab/upstage-nlp-summarization-nlp-5/assets/42354230/68f8dcf0-86fe-4b5a-ab10-e7bb7c20aa2e)  
+final_result: 40.4343  
+rouge1-F1: 0.4953  
+rouge2-F1: 0.3025  
+rougeL-F1: 0.4153  
 
 ### Presentation
-
-- _Insert your presentaion file(pdf) link_
+- https://docs.google.com/presentation/d/1BKWkCq8ePh6_Oe5FFpUGNzDJVVoBG4wvsWzAb6MYbk4/edit?usp=sharing
 
 ## etc
 
-### Meeting Log
-
-- _Insert your meeting log link like Notion or Google Docs_
-
 ### Reference
+- SAMSUM Dataset: https://huggingface.co/datasets/samsum
+- Kobart: https://huggingface.co/digit82/kobart-summarization
+- T5: https://huggingface.co/eenzeenee/t5-base-korean-summarization
 
-- _Insert related reference_
