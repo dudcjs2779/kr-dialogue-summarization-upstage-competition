@@ -64,8 +64,17 @@ Train Data 12457개, Valid Data 499개, Test Data 499개로 이루어져 있으�
 
 
 ### EDA
+#### 샘플데이터
+<img src="https://github.com/UpstageAILab/upstage-nlp-summarization-nlp-5/assets/42354230/c6d69ed8-0845-4d06-9678-6e1add5f3768" width="768">
 
-- _Describe your EDA process and step-by-step conclusion_
+#### Train, Valid, Test 대화문 및 요약문 길이 비교
+<img src="https://github.com/UpstageAILab/upstage-nlp-summarization-nlp-5/assets/42354230/f933c578-eb74-437d-b6cd-acf720f1dc4b" width="330">
+<img src="https://github.com/UpstageAILab/upstage-nlp-summarization-nlp-5/assets/42354230/97322551-cc5f-4081-a628-b0ca57b66429" width="330">
+<img src="https://github.com/UpstageAILab/upstage-nlp-summarization-nlp-5/assets/42354230/adb53049-bbc3-4c87-9b98-b93d3814a7b2" width="330"> 
+
+#### Data cleansing
+![05](https://github.com/UpstageAILab/upstage-nlp-summarization-nlp-5/assets/42354230/d05f07e5-b7da-485b-9a43-0d099aa11abd)
+
 
 ### Data Processing
 
