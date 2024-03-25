@@ -115,7 +115,9 @@ rougeL-F1: 0.4153
 ## etc
 
 ### Reference
-- SAMSUM Dataset: https://huggingface.co/datasets/samsum
+- train.csv, test.csv, dev.csv, sample_submission.csv 등의 파일은 DialogSum을 활용하여 만들어진 Upstage사의 2차 저작물임을 알려드립니다.
+    - [DialogSum](https://huggingface.co/datasets/knkarthick/dialogsum): cc-by-nc-sa-4.0
+- [SAMSUM Dataset](https://huggingface.co/datasets/samsum): cc-by-nc-nd-4.0
 - Kobart: https://huggingface.co/digit82/kobart-summarization
 - T5: https://huggingface.co/eenzeenee/t5-base-korean-summarization
 
