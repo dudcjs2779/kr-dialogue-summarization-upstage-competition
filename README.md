@@ -36,9 +36,6 @@
 
 ### Directory
 
-- _Insert your directory structure_
-
-e.g.
 ```
 │
 ├─code
@@ -121,5 +118,6 @@ rougeL-F1: 0.4153
     - [DialogSum](https://huggingface.co/datasets/knkarthick/dialogsum): cc-by-nc-sa-4.0
 - [SAMSUM Dataset](https://huggingface.co/datasets/samsum): cc-by-nc-nd-4.0
 - Kobart: https://huggingface.co/digit82/kobart-summarization
-- T5: https://huggingface.co/eenzeenee/t5-base-korean-summarization
+- 원본 T5: https://huggingface.co/eenzeenee/t5-base-korean-summarization
+- 해당 데이터셋으로 FineTuning한 T5: https://huggingface.co/dudcjs2779/dialogue-summarization-T5
 
