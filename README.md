@@ -40,18 +40,20 @@
 
 e.g.
 ```
-├── code
-│   ├── jupyter_notebooks
-│   │   └── model_train.ipynb
-│   └── train.py
-├── docs
-│   ├── pdf
-│   │   └── (Template) [패스트캠퍼스] Upstage AI Lab 1기_그룹 스터디 .pptx
-│   └── paper
-└── input
-    └── data
-        ├── eval
-        └── train
+│
+├─code
+│      baselineT5_final.ipynb
+│      gpt_api.ipynb
+│      translate.ipynb
+├─data
+│      dev.csv
+│      gpt_train.csv
+│      sample_submission.csv
+│      test.csv
+│      train.csv
+├─model
+└─ppt
+        NLP 5조 Dialogue Summarization.pptx
 ```
 
 ## 3. Data descrption
