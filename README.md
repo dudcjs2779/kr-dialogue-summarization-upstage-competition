@@ -110,6 +110,7 @@ rougeL-F1: 0.4153
 
 ### Presentation
 - ppt폴더 참조
+- [대회회고](https://longing-artichoke-024.notion.site/Dialogue-Summarization-Upstage-Competition-f548fd094cf242e1809ad9f39b68283a?pvs=74)
 
 ## etc
 
