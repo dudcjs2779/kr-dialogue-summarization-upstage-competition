@@ -5,7 +5,7 @@
 |![image](https://github.com/UpstageAILab/upstage-cv-classification-cv5/assets/96022213/e7394268-0f94-4468-8cf5-3cf67e4edd07)|![image](https://github.com/UpstageAILab/upstage-cv-classification-cv5/assets/96022213/9233ab6e-25d5-4c16-8dd4-97a7b8535baf) | ![image](https://github.com/UpstageAILab/upstage-cv-classification-cv5/assets/96022213/9c75cbd9-f409-4fdd-a5c3-dec082ade3bf) | ![image](https://github.com/UpstageAILab/upstage-cv-classification-cv5/assets/96022213/388eac05-7cd9-4688-8a87-5b6b742715cf) |![image](https://github.com/UpstageAILab/upstage-cv-classification-cv5/assets/96022213/48dd674c-ab93-48d1-9e05-e7e8e402597c) |![image](https://github.com/UpstageAILab/upstage-cv-classification-cv5/assets/96022213/0a524747-a854-4eee-95b6-108c84514df8) |
 | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: | :--------------------------------------------------------------: |
 |            [김영천](https://github.com/dudcjs2779)             |            최장원            |            배창현           |            박성우             |            조예람             |            이소영B             |
-|                            팀장                            |                            팀원                             |                            팀원                             |                            팀원                             |                            팀원                             |                            팀원                             |
+|                            팀장(ME)                            |                            팀원                             |                            팀원                             |                            팀원                             |                            팀원                             |                            팀원                             |
 
 ## 0. Overview
 ### Environment
@@ -36,22 +36,21 @@
 
 ### Directory
 
-- _Insert your directory structure_
-
-e.g.
 ```
-├── code
-│   ├── jupyter_notebooks
-│   │   └── model_train.ipynb
-│   └── train.py
-├── docs
-│   ├── pdf
-│   │   └── (Template) [패스트캠퍼스] Upstage AI Lab 1기_그룹 스터디 .pptx
-│   └── paper
-└── input
-    └── data
-        ├── eval
-        └── train
+│
+├─code
+│      baselineT5_final.ipynb
+│      gpt_api.ipynb
+│      translate.ipynb
+├─data
+│      dev.csv
+│      gpt_train.csv
+│      sample_submission.csv
+│      test.csv
+│      train.csv
+├─model
+└─ppt
+        NLP 5조 Dialogue Summarization.pptx
 ```
 
 ## 3. Data descrption
@@ -111,11 +110,15 @@ rougeL-F1: 0.4153
 
 ### Presentation
 - ppt폴더 참조
+- [대회회고](https://longing-artichoke-024.notion.site/Dialogue-Summarization-Upstage-Competition-f548fd094cf242e1809ad9f39b68283a?pvs=74)
 
 ## etc
 
 ### Reference
-- SAMSUM Dataset: https://huggingface.co/datasets/samsum
+- train.csv, test.csv, dev.csv, sample_submission.csv 등의 파일은 DialogSum을 활용하여 만들어진 Upstage사의 2차 저작물임을 알려드립니다.
+    - [DialogSum](https://huggingface.co/datasets/knkarthick/dialogsum): cc-by-nc-sa-4.0
+- [SAMSUM Dataset](https://huggingface.co/datasets/samsum): cc-by-nc-nd-4.0
 - Kobart: https://huggingface.co/digit82/kobart-summarization
-- T5: https://huggingface.co/eenzeenee/t5-base-korean-summarization
+- 원본 T5: https://huggingface.co/eenzeenee/t5-base-korean-summarization
+- 해당 데이터셋으로 FineTuning한 T5: https://huggingface.co/dudcjs2779/dialogue-summarization-T5
 
